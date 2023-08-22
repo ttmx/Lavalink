@@ -27,8 +27,9 @@ allprojects {
     repositories {
         mavenCentral() // main maven repo
         mavenLocal()   // useful for developing
-        maven("https://m2.dv8tion.net/releases")
         maven("https://maven.arbjerg.dev/releases")
+        maven("https://maven.arbjerg.dev/snapshots")
+        maven("https://m2.dv8tion.net/releases")
         jcenter()
         maven("https://jitpack.io") // build projects directly from GitHub
     }
