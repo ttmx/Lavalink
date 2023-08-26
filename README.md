@@ -304,7 +304,7 @@ services:
         container_name: lavalink
         restart: unless-stopped
         environment:
-            - _JAVA_OPTIONS=-Xmx6G # set Java options here
+            - _JAVA_OPTIONS=-Xmx1G # set Java options here
             - SERVER_PORT=2333 # set lavalink server port
             - LAVALINK_SERVER_PASSWORD=youshallnotpass # set password for lavalink
         volumes:
